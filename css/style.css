@@ -31,3 +31,8 @@ width: 100%;
     height:400px;
   }
 }
+
+.col-sm{
+  text-align: center;
+  margin: 1em;
+}
