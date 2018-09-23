@@ -7,6 +7,27 @@ height:100%;
 width: 100%;
 }
 
-.card a:hover{
+.carousel{
+  height: 200px;
+  margin:auto;
+}
 
+/* 中略（ここに上で書いてるCSSが入っている） */
+
+@media (min-width: 320px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height:400px;
+  }
 }
