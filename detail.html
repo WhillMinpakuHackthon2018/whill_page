@@ -52,6 +52,9 @@ $(function(){
 });
 var socket = io.connect();
 socket.on("server_to_client", function(data){
+  if(data.value === 4) {
+    location.href = "course2.html"
+  }
   allHide();
   $("#"+data.value).show();
 });
