@@ -43,6 +43,7 @@ function allHide(){
 }
 $(function(){
   allHide();
+  $("#1").show();
 });
 var socket = io.connect();
 socket.on("server_to_client", function(data){
